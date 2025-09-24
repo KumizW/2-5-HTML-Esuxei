@@ -1,32 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1><strong>Your Course Landing Page</strong></h1>
-    <form action="clp" method="get">
-        <p>Course title
-            <input type="text" name="course_title" placeholder="enter your title">
-        </p>
-        <p>Course Description</p>
-        <textarea name="course_description" id="texttext" cols="30" rows="10" placeholder="write something"></textarea>
-        <br>
-        <label for="skill">Skill level:</label>
-        <select name="skill_level" id="skill">
-            <option value="Beginner level">Beginner level</option>
-            <option value="Intermediate level">Intermediate level</option>
-            <option value="Expert">Expert level</option>
-            <option value="All levels">All levels</option>
-        </select>
-        <br/>
-        <p>
-            Ready to publish the course?
-            <input type="checkbox" name="ready_to_publish" value="yes"/>
-        </p>
-        <button type="submit">Submit</button>
-    </form>
-</body>
-</html>
+<form action="clp" method="get">
+    <p>Course title
+        <input type="text" name="title" placeholder="enter your title">
+    </p>
+    <p>Course Description</p>
+    <textarea name="description" cols="30" rows="10" placeholder="write something"></textarea>
+    <br>
+    <label for="skill">Skill level:</label>
+    <select name="level" id="skill">
+        <option value="beginner">Beginner level</option>
+        <option value="intermediate">Intermediate level</option>
+        <option value="expert">Expert level</option>
+        <option value="all">All levels</option>
+    </select>
+    <br/>
+    <p>
+        Ready to publish the course?
+        <input type="checkbox" name="publish" />
+    </p>
+    <button type="submit">Submit</button>
+</form>
