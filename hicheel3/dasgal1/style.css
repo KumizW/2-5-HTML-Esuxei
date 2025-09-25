@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+h2{
+    color: purple;
+}
+h3{
+    color: green;
+}
+button{
+    background-color: black;
+    color: white;
+}
+p{
+    background-color : rgba(0, 0, 255, 0.5);
+    color: black;
+}
+div{
+   background-color: #ff751f;
+    opacity: 0.5;
+}
