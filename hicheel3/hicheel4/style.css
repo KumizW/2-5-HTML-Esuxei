@@ -1,0 +1,55 @@
+/*body{
+    font-family: 'Times New Roman', Times, serif;
+}*/
+
+body {
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+p{
+  font-family:initial;
+  font-size: 32px;
+  font-weight: bolder;
+  font-style: italic;
+  font-variation-settings: 'wdth' 200, 'wght' 700;
+  color: red;
+  color: blue;  
+}
+span{
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 2;
+}
+#uniqID{
+    COLOR:red;
+}
+.classname{
+    color:blue;
+}
+.test{
+    color:green;
+}
+h2{
+    text-shadow: 2px 2px 5px gray,-2px -2px 5px black;
+}
+.transform{
+    text-transform: uppercase;
+    text-shadow: none;
+}
+.decoration{
+   color: purple;
+   text-shadow: none;
+   text-decoration-color: orange;
+   /*  text-decoration-line: underline; 
+    text-decoration-style: wavy;
+   text-decoration-thickness: 5px;   */
+   font: italic 40px Arial;
+}
+a.visited{
+    color: yellow
+}
+a:hover{
+    color: orange;
+}
