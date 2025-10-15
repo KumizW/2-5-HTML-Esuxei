@@ -1,0 +1,26 @@
+body{
+    font-family: 'Arial', sans-serif;
+    font-size:40px;
+}
+h1{
+    text-align: center;
+}
+#leafy{
+    color: green;
+    text-decoration: underline;
+}
+.latin{
+    font-style:italic;
+}
+h2{
+    text-transform:uppercase ;
+    font-weight:bold ;
+}
+a{
+    color:orange;
+    font-weight:bold;
+}
+a:hover{
+    color:orangered;
+     font-weight:bolder;
+}
