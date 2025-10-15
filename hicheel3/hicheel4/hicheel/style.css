@@ -52,4 +52,16 @@ a.visited{
 }
 a:hover{
     color: orange;
+    color-decoration: underline;
+    text-shadow: 1px 1px 2px gray;
+    cursor: pointer;
+}
+.Textalign{
+    text-align: center;
+    text-shadow: none;
+}
+li{
+    /* list-style-type: circle;
+    list-style-position: inside; */
+    list-style: circle inside;
 }
