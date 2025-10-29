@@ -1,0 +1,119 @@
+
+/* *{
+    color: red;
+} */
+html, body {
+    height:10000px ;
+    margin: 0;
+    padding: 0;
+}
+input[type="email"] {
+    background-color: green;
+}
+a[href^="#"] {
+   color: blue;
+}
+a[href*="wiki"] {
+    color: orange;
+}
+a[href$=".org"] {
+    color: purple;
+}
+em,strong{
+    color: brown;
+}
+#groupid{
+    color: pink;
+}
+ul li{
+    color:chocolate
+}
+ol>li{
+    border: 1px solid black;
+}
+h3.Cclass{
+    color: cyan;
+}
+boxmodel{
+    border width: 1px;
+    border-style: solid;    
+    border-color: black;
+    margin: 10px;
+ border-radius:5px;
+border-top:2px solid red;
+}
+#borderid{
+    /* width: 200px;
+    height: 100px; */
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.whclass p{
+    margin:auto;
+    border:1px solid black;
+    width : 50%;
+    height: 50%;
+}
+.pclass{
+    border:1px,solid,black;
+    padding: 20px;
+    background-color: lightblue;
+}
+.mclass{
+    border: 1px,solid,black;
+    margin: 20px;
+    background-color: lightgreen;
+}
+.abox{
+    box-sizing: border-box;
+    border :1px solid red;
+    width: 100px;
+    height: 100px;  
+    padding:5px;
+    margin:5px;
+}
+.dclass{
+    display:inline;
+    color: red;
+
+}
+#dclass
+{
+    display:block;
+    color: blue;
+}
+p.dclass{
+    display: none;
+    color: green;
+    opacity: 0.5;
+}
+.coclass{
+    margin:20px;
+}
+.coclass1{
+    margin:50px
+}
+.boxshadow{
+    border:1px solid blue;
+    width: 200px;
+    height: 100px;
+    background-color: lightgrey;
+    /* box-shadow: grey 10px 10px 10px, rgb(157, 114, 114) 0px 0px 10px; */
+    box-shadow: 15px 12px 21px 0px rgba(47,137,120,0.75);
+-webkit-box-shadow: 15px 12px 21px 0px rgba(47,137,120,0.75);
+-moz-box-shadow: 15px 12px 21px 0px rgba(47,137,120,0.75);
+}
+.overclass{
+    border :1px solid rgb(63, 90, 177);
+    width: 200px;
+    height: 100px;  
+        overflow:auto;
+    /*  overflow-y:scroll; */
+        overflow:hidden
+}
+.overclass span{
+    dispalay:inline-block;
+    width:200px;    
+    height:50px;
+    background-color: lightgrey;
+}

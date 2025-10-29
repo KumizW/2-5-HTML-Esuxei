@@ -1,0 +1,37 @@
+.bright{
+    text-align: center;
+    font-style: italic;
+    color:blue;
+}
+h2.bright{
+    text-align: left;
+    color:aqua
+}
+ul>li{
+    color:rgb(159, 51, 96);
+}
+span{
+    color:red;
+}
+h2{
+    color:rgb(12, 12, 69)
+}
+.size{
+    color:rgb(193, 33, 113)
+}
+.other{
+    color:rgb(118, 13, 118)
+}
+a[href$=".com"]{
+    color:blue;
+}
+a[href$=".org"]{
+    color:rgb(221, 15, 149);
+}
+input[type="email"]{
+    background-color: orange;
+}
+#submit{
+    background-color:green;
+}
+
