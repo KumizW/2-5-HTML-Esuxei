@@ -1,0 +1,30 @@
+body{
+    font-family: 'Arial', sans-serif;
+}
+h1{
+    text-align:center;
+}
+#leafy{
+    text-decoration: underline;
+    color:green;
+}
+#leafy:hover{
+    color:darkgreen;
+    cursor: pointer;
+}
+.latin{
+    font-style:italic;
+}
+h2{
+    text-transform:uppercase;
+    font-weight: bold;
+}
+a{
+    color:yellow;
+    font-size:bold;
+}
+a:hover{
+    color:orangered;
+     font-size:bolder;
+}
+

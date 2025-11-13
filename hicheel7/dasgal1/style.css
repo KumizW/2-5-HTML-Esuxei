@@ -1,0 +1,136 @@
+.tolgoiHeseg {
+  background-color: #863ae8;
+  color: white; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.title {
+  text-align: center;
+    font-size: 3rem;
+}
+h1{
+  font-size: 80px;
+  font-weight:400px;
+  font-family: Bitter, serif;
+}
+body {
+  margin: 0;
+ font-family: Mukta, sans-serif; font-size: 16px;
+}
+.biy{
+text-align:left;
+width:auto;
+margin-left:20%;
+margin-right:20%;
+}
+.onSar{
+    text-align:center;
+    font-size:0.8rem
+}
+span{
+    color:#e95400;
+}
+h2{
+    text-align: left;
+    font-size:60px;
+    font-weight: 500;
+}
+p{
+    font-weight:bolder;
+}
+.bigText
+{
+    text-transform: uppercase;
+}
+code{
+    color:#e95400;
+}
+blockquote {
+  font-style: italic;
+  color: black;
+  border-left: 4px solid #e67e22;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+  background-color: #fff;
+  line-height: 1.6;
+}
+blockquote cite
+{
+    display: block;
+    text-align: right;
+    font-size: 0.9rem;
+    color: black;
+    font-weight:bolder;
+}
+h3{
+    text-align: left;
+    font-size:40px;
+    font-weight: 500;
+}
+h4{
+    text-align: left;
+    font-size:30px;
+    font-weight: 500;
+}
+h5{
+    text-align: left;
+    font-size:20px;
+    font-weight: 500;
+}
+h6{
+    text-align: left;
+    font-size:15px;
+    font-weight: 500;
+}
+footer
+{
+    background-color:#863ae8;
+    color:white;
+}
+blockquote {
+  font-style: italic;
+  color: black;
+  border-left: 4px solid #e67e22; 
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+  background-color: #fff;
+  line-height: 1.6;
+}
+blockquote cite {
+  display: block;
+  margin-top: 0.5em;
+  font-style: normal;
+  font-weight: bold;
+  color:black;
+}
+footer{
+    margin-top:auto;
+    background-color:#863ae8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px 0;
+}
+footer ul
+{
+   display:flex;
+   gap:40px;
+   list-style: none;
+   margin:0;
+   padding:0;
+}
+footer ul li a {
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+}
+footer ul li a:hover
+{
+    text-decoration: underline;
+    color:orangered;
+}

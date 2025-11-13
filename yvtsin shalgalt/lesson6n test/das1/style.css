@@ -1,0 +1,46 @@
+h1.bright{
+ text-align: left;
+ color:rgb(36, 36, 209)
+}
+h2.bright{
+    color:cyan;
+}
+ul li{
+ color:rgb(136, 31, 98);
+}
+span{
+    color:rgb(137, 38, 16);
+    font-weight: bold;
+}
+span:hover{
+    color:rgb(255, 3, 3);
+    text-decoration: underline;
+    font-weight:bolder;
+}
+h2{
+    color:blue;
+}
+.size{
+    color:rgb(217, 20, 188);
+    font-weight: bolder;
+}
+.other{
+    color:rgb(145, 7, 58);
+    font-weight:bold;
+}
+[href$=".org"]
+{
+    color:rgb(217, 67, 117);
+    text-decoration: underline;
+}
+[href$=".com"]
+{
+    color:blue;
+    text-decoration: underline;
+}
+input[type="email"]{
+  background-color: orange;
+}
+#submit{
+    background-color: darkgreen;
+}
