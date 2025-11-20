@@ -1,0 +1,173 @@
+.containerFloat {
+  width: 500px;
+  height: 500px;
+  /* float: right; */
+  border: 1px red solid;
+  /* background-color: blue; */
+}
+.containerFloat img {
+  width: 300px;
+  height: 200px;
+  /* float: left; */
+  float: right;
+}
+.containerBI {
+  width: 500px;
+  height: 500px;
+  border: 1px red solid;
+  background-image: url("images/peacock.png");
+  /* background-image: url("images/food.jpg"); */
+  /* background-image: url("https://plus.unsplash.com/premium_photo-1673240367277-e1d394465b56?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+}
+.boxrepeat {
+  border: 1px solid red;
+  height: 500px;
+  width: 500px;
+  background-image: url("images/peacock.png");
+  background-repeat: no-repeat;
+}
+.boxsize {
+  border: 1px solid red;
+  height: 500px;
+  width: 900px;
+  background-image: url("images/people.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+.boxposition {
+  border: 1px solid red;
+  height: 400px;
+  width: 200px;
+  background-image: url("images/woman.jpg");
+  background-size: cover;
+  background-position: left bottom;
+}
+.boxclip {
+  border: 20px dashed red;
+  height: 400px;
+  width: 400px;
+  background-image: url("images/woman.jpg");
+  padding: 30px;
+  background-clip: padding-box;
+  background-clip: content-box;
+}
+.boxlinear {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(red, blue 30%, orange);
+}
+.boxconic {
+  border: 2px solid black;
+  height: 700px;
+  width: 400px;
+  /* background-image: radial-gradient(circle at bottom, cyan 60%, pink, yellow); */
+  /* background-image: conic-gradient(cyan, yellow, magenta, cyan); */
+  background-image: repeating-linear-gradient(45deg, blue, red 10%);
+}
+.boxshort {
+  border: 2px solid black;
+  height: 700px;
+  width: 400px;
+  background: url("images/peacock.png") no-repeat center/100%;
+  /* background-image: url("images/peacock.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%; */
+}
+.boxfilter {
+  border: 2px solid black;
+  height: 700px;
+  width: 700px;
+  background: url("images/people.jpg");
+  background-size: cover;
+  filter: blur(20px);
+  /* filter: saturate(30%); */
+  /* filter: contrast(30%); */
+}
+
+.filterimg {
+  width: 500px;
+  border: 10px solid pink;
+  filter: hue-rotate(180deg);
+}
+.pstatic {
+  border: 1px solid black;
+  background-color: magenta;
+  margin: 30px;
+  font-size: 2rem;
+  position: static;
+  left: 23px;
+}
+#special {
+  position: relative;
+  background-color: yellow;
+  /* bottom: 100px; */
+  top: -100px;
+  left: 100px;
+}
+.pZindex {
+  border: 1px solid black;
+  background-color: magenta;
+  margin: 30px;
+  font-size: 2rem;
+  z-index: 2;
+  position: relative;
+}
+#specialZindex {
+  position: relative;
+  background-color: yellow;
+  top: 50px;
+  left: 40px;
+  z-index: 3;
+}
+.boxabsolute {
+  background-color: olive;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  display: inline-block;
+  z-index: 1;
+}
+
+.specialabsolute {
+  background-color: orangered;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  bottom: 300px;
+  left: 0;
+  display: inline-block;
+  z-index: 2;
+}
+.boxabsolute2 {
+  background-color: olive;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+.boxabsolute2 span {
+  color: white;
+  background-color: orangered;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.containerFixed {
+  width: 100vw;
+  height: 100vh;
+}
+.containerFixed span {
+  font-size: 2rem;
+  display: block;
+  width: 50%;
+  padding: 30px;
+  background-color: orchid;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
